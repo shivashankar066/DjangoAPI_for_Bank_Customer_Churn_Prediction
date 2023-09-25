@@ -38,3 +38,20 @@ EstimatedSalary    float64
 dtype: object
 INFO 2023-09-25 12:48:09,335 views 15052 22124 churn_prediction post 62 Predicted Result: [1]
 INFO 2023-09-25 12:48:09,336 views 15052 22124 churn_prediction post 63 Predicted Probabilities: [[0.47619048 0.52380952]]
+INFO 2023-09-25 18:00:00,935 views 23896 21636 churn_prediction post 58 First few rows of X:
+   CreditScore  Geography  Gender  Age  Tenure  Balance  NumOfProducts  HasCrCard  IsActiveMember  EstimatedSalary
+0          619          0       0   42       2      0.0              1          1               1        101348.88
+INFO 2023-09-25 18:00:01,064 views 23896 21636 churn_prediction post 59 Data types of columns in X:
+CreditScore          int64
+Geography            int32
+Gender               int32
+Age                  int64
+Tenure               int64
+Balance            float64
+NumOfProducts        int64
+HasCrCard            int64
+IsActiveMember       int64
+EstimatedSalary    float64
+dtype: object
+INFO 2023-09-25 18:00:01,093 views 23896 21636 churn_prediction post 62 Predicted Result: [1]
+INFO 2023-09-25 18:00:01,099 views 23896 21636 churn_prediction post 63 Predicted Probabilities: [[0.47619048 0.52380952]]

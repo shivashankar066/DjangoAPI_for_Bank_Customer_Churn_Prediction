@@ -48,7 +48,7 @@ class churn_prediction(APIView):
         X['Balance'] = float(X['Balance'])
         X["EstimatedSalary"] = float(X['EstimatedSalary'])
         if X.shape[0] == 0:
-            response = {"No records found in df"}
+            response = {"No records found in dataframe(df)"}
             return Response(response)
 
         for column in ChurnPredictionAppConfig.categorical_columns:

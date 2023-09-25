@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from churn_prediction_app import views
-
+# Create url here
 urlpatterns = [
     path("churn_prediction/", views.churn_prediction.as_view()),
 ]

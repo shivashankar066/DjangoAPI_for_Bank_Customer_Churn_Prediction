@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 config = ConfigParser()
 config.read(os.path.join("churn_prediction_app", "config", "config.ini"))
 
-
+# Load all files into app
 class ChurnPredictionAppConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
     name = "churn_prediction_app"
