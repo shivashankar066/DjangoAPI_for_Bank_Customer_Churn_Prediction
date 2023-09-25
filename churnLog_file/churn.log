@@ -1,0 +1,40 @@
+INFO 2023-09-25 12:44:41,058 views 6928 15472 churn_prediction post 58    CreditScore  Geography  Gender  Age  Tenure  Balance  NumOfProducts  HasCrCard  IsActiveMember  EstimatedSalary
+0          619          0       0   42       2      0.0              1          1               1        101348.88
+INFO 2023-09-25 12:45:51,487 views 2224 17776 churn_prediction post 58    CreditScore  Geography  Gender  Age  Tenure  Balance  NumOfProducts  HasCrCard  IsActiveMember  EstimatedSalary
+0          619          0       0   42       2      0.0              1          1               1        101348.88
+INFO 2023-09-25 12:45:51,527 views 2224 17776 churn_prediction post 62 Predicted Result: [1]
+INFO 2023-09-25 12:45:51,528 views 2224 17776 churn_prediction post 63 Predicted Probabilities: [[0.47619048 0.52380952]]
+INFO 2023-09-25 12:47:13,744 views 23044 19492 churn_prediction post 58 First few rows of X:
+   CreditScore  Geography  Gender  Age  Tenure  Balance  NumOfProducts  HasCrCard  IsActiveMember  EstimatedSalary
+0          619          0       0   42       2      0.0              1          1               1        101348.88
+INFO 2023-09-25 12:47:13,767 views 23044 19492 churn_prediction post 59 Data types of columns in X:
+CreditScore          int64
+Geography            int32
+Gender               int32
+Age                  int64
+Tenure               int64
+Balance            float64
+NumOfProducts        int64
+HasCrCard            int64
+IsActiveMember       int64
+EstimatedSalary    float64
+dtype: object
+INFO 2023-09-25 12:47:13,773 views 23044 19492 churn_prediction post 62 Predicted Result: [1]
+INFO 2023-09-25 12:47:13,774 views 23044 19492 churn_prediction post 63 Predicted Probabilities: [[0.47619048 0.52380952]]
+INFO 2023-09-25 12:48:09,311 views 15052 22124 churn_prediction post 58 First few rows of X:
+   CreditScore  Geography  Gender  Age  Tenure  Balance  NumOfProducts  HasCrCard  IsActiveMember  EstimatedSalary
+0          619          0       0   42       2      0.0              1          1               1        101348.88
+INFO 2023-09-25 12:48:09,330 views 15052 22124 churn_prediction post 59 Data types of columns in X:
+CreditScore          int64
+Geography            int32
+Gender               int32
+Age                  int64
+Tenure               int64
+Balance            float64
+NumOfProducts        int64
+HasCrCard            int64
+IsActiveMember       int64
+EstimatedSalary    float64
+dtype: object
+INFO 2023-09-25 12:48:09,335 views 15052 22124 churn_prediction post 62 Predicted Result: [1]
+INFO 2023-09-25 12:48:09,336 views 15052 22124 churn_prediction post 63 Predicted Probabilities: [[0.47619048 0.52380952]]
