@@ -3,7 +3,7 @@ The aim of this project to analyze the bank customer's demographics and financia
 which inculdes customer's age, gender. country, credit score, balance and many others to predict whether the customer will leave the bank or not.
 
 
-**Data Dictionary**
+**Data Dictionary**  
 Column Name                      Description
 RowNumber                        Row number
 CustomerId                       Unique identification key for different customers
